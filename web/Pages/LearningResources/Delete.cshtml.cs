@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using NetLearnerWeb.Data;
 using NetLearnerWeb.Models;
 
-namespace NetLearnerWeb.Areas.LearningResources.Pages
+namespace NetLearnerWeb.Pages.LearningResources
 {
     public class DeleteModel : PageModel
     {
