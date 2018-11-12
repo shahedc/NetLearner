@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using NetLearnerWeb.Data;
 using NetLearnerWeb.Models;
 
-namespace NetLearnerWeb.Pages.LearningResources
+namespace NetLearnerWeb.Areas.LearningResources.Pages
 {
     public class CreateModel : PageModel
     {

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using NetLearnerWeb.Data;
 using NetLearnerWeb.Models;
 
-namespace NetLearnerWeb.Pages.LearningResources
+namespace NetLearnerWeb.Areas.LearningResources.Pages
 {
     public class EditModel : PageModel
     {
