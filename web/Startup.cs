@@ -43,7 +43,15 @@ namespace web
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc()
+                .AddRazorPagesOptions(options =>
+                {
+                    options.Conventions.AuthorizePage("/LearningResources/Create");
+                    options.Conventions.AuthorizePage("/LearningResources/Edit");
+                    options.Conventions.AuthorizePage("/LearningResources/Delete");
+                    options.Conventions.AllowAnonymousToPage("/Index");
+                })
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
