@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using NetLearnerWeb.Models;
 
-namespace NetLearnerWeb.Data
+namespace web.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -13,6 +12,5 @@ namespace NetLearnerWeb.Data
             : base(options)
         {
         }
-        public DbSet<NetLearnerWeb.Models.LearningResource> LearningResource { get; set; }
     }
 }
