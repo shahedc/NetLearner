@@ -15,7 +15,7 @@
 
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Folder Include="Data\Migrations\" />
   </ItemGroup>
 
 </Project>
