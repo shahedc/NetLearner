@@ -7,6 +7,7 @@ namespace NetLearnerWeb.Models
 {
     public class ResourceCatalog
     {
+        public int Id { get; set; }
         public List<ItemList> ItemLists { get; set; }
     }
 }
