@@ -1,0 +1,11 @@
+One to One
+Root 1-1 RssFeed
+
+One to Many
+Collection (Catalog?) 1-8 List
+Root 1-8 Resource
+
+Many to Many
+List 8-8 Resource
+
+--
