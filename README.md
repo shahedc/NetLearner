@@ -1,4 +1,7 @@
-# NetLearner
+NOTE: This repository, built with .NET Core 2.x, is outdated. For the newer (3.1) version, please refer to the following repository:
+[https://github.com/shahedc/NetLearnerApp](https://github.com/shahedc/NetLearnerApp)
+
+# NetLearner (Outdated)
 ASP .NET Core web app to allow any user to consolidate multiple learning resources all under one umbrella.
 
 ![NetLearner logo](images/NetLearner-logo.png "NetLearner: ASP.NET Core Internet Learning Helper")
